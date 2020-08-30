@@ -2,7 +2,6 @@
 
 Commandline script that pings a url and logs the response with status-code and time. Interval and protocol (http/https) can be specified.
 
-
 # Description
 
 ### Use case
@@ -20,8 +19,9 @@ Websites hosted on free domains like heroku can take forever to load (first load
 - http or https protocols
 - Log response status and time to file
 
-
 # How to run
+
+Script only uses code NodeJS modules, so as long as NodeJS is installed on the system, you are good to go.
 
 Run the start script using
 
